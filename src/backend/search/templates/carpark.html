@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Park Data</title>
+</head>
+<body>
+    <h1>Car Park Data</h1>
+
+    <!-- Insert the search form here -->
+    <form action="{% url 'search_nearby_carparks' %}" method="get">
+        <input type="text" name="query" placeholder="Enter your location">
+        <input type="submit" value="Search">
+    </form>
+
+    <!-- Optional: Display the search results in a list (if you want to show both list and table views) -->
+    {% if car_park_data %}
+    <ul>
+        {% for carpark in car_park_data %}
+        <li>
+            Name: {{ carpark.CarParkName }}
+            Availability: {{ carpark.Availability }} / {{ carpark.TotalLots }}
+            <!-- ... display other details ... -->
+        </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+
+    <!-- Display the car park data in a table -->
+    <table>
+        <thead>
+            <tr>
+                <th>Car Park Name</th>
+                <th>Availability</th>
+                <th>Total Lots</th>
+                <th>Rates</th>
+                <th>Coordinates</th>
+                <th>Start Time</th>
+                <th>End Time</th>
+                <th>Parking System</th>
+                <th>Satday Min</th>
+                <th>Satday Rate</th>
+                <th>Sun PH Min</th>
+                <th>Sun PH Rate</th>
+                <th>Vehicle Category</th>
+                <th>Weekday Min</th>
+                <th>Weekday Rate</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for car_park in car_park_data %}
+            <tr>
+                <td>{{ car_park.CarParkName }}</td>
+                <td>{{ car_park.Availability }}</td>
+                <td>{{ car_park.TotalLots }}</td>
+                <td>{{ car_park.coordinates }}</td>
+                <td>{{ car_park.startTime }}</td>
+                <td>{{ car_park.endTime }}</td>
+                <td>{{ car_park.parkingSystem }}</td>
+                <td>{{ car_park.satdayMin }}</td>
+                <td>{{ car_park.satdayRate }}</td>
+                <td>{{ car_park.sunPHMin }}</td>
+                <td>{{ car_park.sunPHRate }}</td>
+                <td>{{ car_park.vehCat }}</td>
+                <td>{{ car_park.weekdayMin }}</td>
+                <td>{{ car_park.weekdayRate }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

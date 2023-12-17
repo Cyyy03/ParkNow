@@ -1,0 +1,186 @@
+[
+    {
+        "merged": "com.parking.app-merged_res-40:/drawable-mdpi_src_images_tabs_fav_sel.png.flat",
+        "source": "com.parking.app-res-34:/drawable-mdpi/src_images_tabs_fav_sel.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/drawable-mdpi_src_images_location.png.flat",
+        "source": "com.parking.app-res-34:/drawable-mdpi/src_images_location.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.parking.app-res-34:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/drawable-xxhdpi_node_modules_reactnativegoogleplacesautocomplete_images_powered_by_google_on_white.png.flat",
+        "source": "com.parking.app-res-34:/drawable-xxhdpi/node_modules_reactnativegoogleplacesautocomplete_images_powered_by_google_on_white.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/drawable-mdpi_src_images_fav.png.flat",
+        "source": "com.parking.app-res-34:/drawable-mdpi/src_images_fav.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/drawable-mdpi_src_images_loginhome.png.flat",
+        "source": "com.parking.app-res-34:/drawable-mdpi/src_images_loginhome.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backiconmask.png.flat",
+        "source": "com.parking.app-res-34:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backiconmask.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/drawable-mdpi_src_images_guide1.png.flat",
+        "source": "com.parking.app-res-34:/drawable-mdpi/src_images_guide1.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.parking.app-main-41:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.parking.app-main-41:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.parking.app-main-41:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/drawable-mdpi_node_modules_reactnativegoogleplacesautocomplete_images_powered_by_google_on_white.png.flat",
+        "source": "com.parking.app-res-34:/drawable-mdpi/node_modules_reactnativegoogleplacesautocomplete_images_powered_by_google_on_white.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/drawable-mdpi_src_images_tabs_fav.png.flat",
+        "source": "com.parking.app-res-34:/drawable-mdpi/src_images_tabs_fav.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/drawable-mdpi_src_images_tabs_home_sel.png.flat",
+        "source": "com.parking.app-res-34:/drawable-mdpi/src_images_tabs_home_sel.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/drawable_rn_edit_text_material.xml.flat",
+        "source": "com.parking.app-main-41:/drawable/rn_edit_text_material.xml"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/drawable-mdpi_src_images_tabs_mine.png.flat",
+        "source": "com.parking.app-res-34:/drawable-mdpi/src_images_tabs_mine.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/drawable-mdpi_src_images_logo.png.flat",
+        "source": "com.parking.app-res-34:/drawable-mdpi/src_images_logo.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/drawable-mdpi_src_images_more.png.flat",
+        "source": "com.parking.app-res-34:/drawable-mdpi/src_images_more.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/drawable-mdpi_src_images_backwhite.png.flat",
+        "source": "com.parking.app-res-34:/drawable-mdpi/src_images_backwhite.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.parking.app-main-41:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.parking.app-main-41:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/drawable-mdpi_src_images_tabs_guiji_sel.png.flat",
+        "source": "com.parking.app-res-34:/drawable-mdpi/src_images_tabs_guiji_sel.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/drawable-xxxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.parking.app-res-34:/drawable-xxxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/drawable-mdpi_src_images_wenhao.png.flat",
+        "source": "com.parking.app-res-34:/drawable-mdpi/src_images_wenhao.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/drawable-hdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.parking.app-res-34:/drawable-hdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/drawable-mdpi_src_images_guide2.png.flat",
+        "source": "com.parking.app-res-34:/drawable-mdpi/src_images_guide2.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/drawable-mdpi_src_images_copy.png.flat",
+        "source": "com.parking.app-res-34:/drawable-mdpi/src_images_copy.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.parking.app-main-41:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/drawable-mdpi_src_images_avatar.png.flat",
+        "source": "com.parking.app-res-34:/drawable-mdpi/src_images_avatar.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/drawable-xhdpi_node_modules_reactnativegoogleplacesautocomplete_images_powered_by_google_on_white.png.flat",
+        "source": "com.parking.app-res-34:/drawable-xhdpi/node_modules_reactnativegoogleplacesautocomplete_images_powered_by_google_on_white.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/drawable-mdpi_src_images_delete.png.flat",
+        "source": "com.parking.app-res-34:/drawable-mdpi/src_images_delete.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/drawable-mdpi_src_images_edit.png.flat",
+        "source": "com.parking.app-res-34:/drawable-mdpi/src_images_edit.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.parking.app-main-41:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/drawable-mdpi_src_images_share.png.flat",
+        "source": "com.parking.app-res-34:/drawable-mdpi/src_images_share.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/drawable-mdpi_src_images_tabs_home.png.flat",
+        "source": "com.parking.app-res-34:/drawable-mdpi/src_images_tabs_home.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/drawable-mdpi_src_images_search.png.flat",
+        "source": "com.parking.app-res-34:/drawable-mdpi/src_images_search.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/drawable-mdpi_src_images_tabs_guiji.png.flat",
+        "source": "com.parking.app-res-34:/drawable-mdpi/src_images_tabs_guiji.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/drawable-xhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.parking.app-res-34:/drawable-xhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/drawable-mdpi_src_images_back.png.flat",
+        "source": "com.parking.app-res-34:/drawable-mdpi/src_images_back.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/drawable-mdpi_src_images_guide3.png.flat",
+        "source": "com.parking.app-res-34:/drawable-mdpi/src_images_guide3.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.parking.app-main-41:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.parking.app-main-41:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.parking.app-main-41:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/drawable-xxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.parking.app-res-34:/drawable-xxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/drawable-mdpi_src_images_tabs_mine_sel.png.flat",
+        "source": "com.parking.app-res-34:/drawable-mdpi/src_images_tabs_mine_sel.png"
+    },
+    {
+        "merged": "com.parking.app-merged_res-40:/drawable-mdpi_src_images_account.png.flat",
+        "source": "com.parking.app-res-34:/drawable-mdpi/src_images_account.png"
+    }
+]

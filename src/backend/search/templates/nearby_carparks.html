@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Nearby Carparks</h1>
+
+    {% if nearby_carparks %}
+        <ul class="carpark-list">
+            {% for carpark in nearby_carparks %}
+                <li class="carpark-item">
+                    <h2>{{ carpark.CarParkName }}</h2>
+                    <p><strong>ID:</strong> {{ carpark.CarParkID }}</p>
+                    <p><strong>Availability:</strong> {{ carpark.Availability }} out of {{ carpark.TotalLots }}</p>
+                    <p><strong>Parking System:</strong> {{ carpark.parkingSystem }}</p>
+                    <p><strong>Operating Hours:</strong> {{ carpark.startTime }} - {{ carpark.endTime }}</p>
+                    <p><strong>Weekday Rate:</strong> {{ carpark.weekdayMin }} mins for {{ carpark.weekdayRate }}</p>
+                    <p><strong>Saturday Rate:</strong> {{ carpark.satdayMin }} mins for {{ carpark.satdayRate }}</p>
+                    <p><strong>Sunday/PH Rate:</strong> {{ carpark.sunPHMin }} mins for {{ carpark.sunPHRate }}</p>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No nearby carparks found. Please try a different location or query.</p>
+    {% endif %}
+{% endblock %}

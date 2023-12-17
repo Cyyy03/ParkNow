@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta name="viewport" content="initial-scale=1,width=device-width">
+        <title>Get Directions</title>
+    </head>
+    <body>
+        <h2>Enter Starting Point and Destination</h2>
+        <form method="POST" action="{% url 'get_directions' %}">
+            {% csrf_token %}
+            <label for="start_address">Starting Point:</label>
+            <input type="text" id="start_address" name="start_address" required><br><br>
+            
+            <label for="end_address">Destination:</label>
+            <input type="text" id="end_address" name="end_address" required><br><br>
+            
+            <input type="submit" value="Get Directions">
+        </form>
+    </body>
+</html>

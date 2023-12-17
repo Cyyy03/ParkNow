@@ -1,0 +1,276 @@
+/* Base Styles */
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.start-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+
+}
+
+.start-button:hover {
+  background-color: #0056b3;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+  margin: 2% auto;
+  width: 90%;
+  max-width: 600px;
+  padding: 2% 3%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: white;
+  border-radius: 5px;
+}
+
+input, button {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 0.5rem 0;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #007BFF;
+}
+
+button {
+  background-color: #007BFF;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.landing-page, .login-form, .register-form {
+  display: flex; /* Enable flexbox */
+  flex-direction: column;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  height: 100vh; /* Full viewport height */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  background-color: #f5f5f5; /* Background color for landing page, you can change if needed for forms */
+}
+
+.home-page {
+  display: flex; /* Enable flexbox */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+  text-align: center;
+}
+
+.home-page .button-container {
+  text-align: center; /* Center inline elements horizontally */
+  padding: 10px; /* Add some space around the buttons */
+  max-width: 50%; /* Maximum width of the button container */
+  width: 100%; /* Fit to the width of its content */
+  margin: auto; /* Center the container */
+}
+
+/* Login & Register Form Styles */
+.login-form, .register-form {
+  width: 90%;
+  max-width: 600px;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: white;
+  border-radius: 5px;
+  /* Since these are flex items, auto margins can be used to center them */
+  margin: auto;
+}
+
+.login-form:hover, .register-form:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.login-form button, .register-form button {
+  transition: background-color 0.2s ease;
+}
+
+.login-form button:hover, .register-form button:hover {
+  filter: brightness(0.9);
+}
+
+h2 {
+  margin-top: 0;
+  color: #444;
+  text-align: center;
+}
+
+/* Carpark Button Styles */
+.carpark-button {
+  display: block;
+  background: #e1e1e1;
+  color: #333;
+  text-align: left;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.carpark-button:hover {
+  background-color: #ccc;
+}
+
+.carpark-details-container {
+  display: flex;
+  height: 100vh;
+  transition: all 0.3s ease;
+}
+
+.favorite-button {
+  background-color: transparent;
+  border: none;
+  font-size: 24px; /* Adjust size as needed */
+  cursor: pointer;
+  color: #d3d3d3; /* Gray color when not a favorite */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.favorite-button.favorite {
+  color: yellow; /* Yellow when marked as a favorite */
+}
+
+.dropdown-button {
+  /* Your button styling */
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  /* Additional styling for the dropdown */
+}
+
+.dropdown-content button {
+  /* Style for dropdown buttons */
+}
+
+.link-generation-dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.left-bar {
+  width: 30%; /* Initial width of the sidebar */
+  height: 100%;
+  overflow-y: auto;
+  background-color: #f2f2f2;
+  transition: width 0.3s ease;
+}
+
+.left-bar.collapsed {
+  width: 0%; /* Collapsed width */
+}
+
+.left-bar .toggle-button {
+  margin-top: 50%;
+  width: 5%;
+  position: absolute;
+  top: 10px; /* Adjust as needed */
+  left: 10px; /* Adjust as needed */
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+.map-container {
+  flex-grow: 1; /* Occupy remaining space */
+  transition: all 0.3s ease;
+}
+
+.toggle-button {
+  cursor: pointer;
+  /* Add more styles for the button if necessary */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .App {
+    width: 95%;
+  }
+}
+
+@media (max-width: 576px) {
+  .App {
+    width: 100%;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .login-form, .register-form {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .left-bar, .map-container {
+      flex: 100%;   
+  }
+}
+
+@media (max-width: 768px) {
+  .login-form, .register-form {
+    width: 95%;
+  }
+}
+
+@media (max-width: 576px) {
+  .login-form, .register-form {
+    width: 100%;
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
+
+/* Extra Styles for a Modern Look */
+.error {
+  color: #e74c3c;
+  padding: 1rem;
+  border: 1px solid #e74c3c;
+  margin: 1rem 0;
+  border-radius: 4px;
+  background-color: #ffe5e5;
+  font-weight: bold;
+}
+
+button, input[type="text"], input[type="password"], input[type="email"] {
+  padding: 0.5rem 1rem; 
+  font-size: 1rem; 
+}
+
+button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
