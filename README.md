@@ -2,7 +2,7 @@
 
 # ParkNow - Find a Public Carpark near you!
 
-![Alt text](https://github.com/softwarelab3/2006-TDDB-overflow/blob/main/ParkNow.jpg?raw=true "ParkNow")
+![Alt text](https://github.com/Cyyy03/ParkNow/blob/main/ParkNow.jpg?raw=true "ParkNow")
 
 ## Demonstration Video
 [Demonstration Video Here](https://drive.google.com/file/d/1b1sTN6kRUHBWPgeVg0ql1A2qlArkvxMj/view?usp=drive_link)
